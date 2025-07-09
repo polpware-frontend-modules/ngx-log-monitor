@@ -1,3 +1,6 @@
-export * from './lib/log-monitor.component';
-export * from './lib/log-monitor.module';
-export * from './lib/models/log-message.model';
+/**
+ * Generated bundle index. Do not edit.
+ */
+/// <amd-module name="ngx-log-monitor" />
+export * from './public-api';
+//# sourceMappingURL=ngx-log-monitor.d.ts.map

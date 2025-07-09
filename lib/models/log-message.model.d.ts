@@ -3,3 +3,4 @@ export interface LogMessage {
     timestamp?: string;
     message: string;
 }
+//# sourceMappingURL=log-message.model.d.ts.map

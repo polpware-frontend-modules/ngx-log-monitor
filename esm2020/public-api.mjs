@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ngx-log-monitor
+ */
+export * from './lib/log-monitor.component';
+export * from './lib/log-monitor.module';
+export * from './lib/models/log-message.model';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL2xvZy1tb25pdG9yL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyw2QkFBNkIsQ0FBQztBQUM1QyxjQUFjLDBCQUEwQixDQUFDO0FBQ3pDLGNBQWMsZ0NBQWdDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1sb2ctbW9uaXRvclxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL2xvZy1tb25pdG9yLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9sb2ctbW9uaXRvci5tb2R1bGUnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbW9kZWxzL2xvZy1tZXNzYWdlLm1vZGVsJztcbiJdfQ==

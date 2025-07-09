@@ -1,0 +1,1 @@
+{"version":3,"file":"log-message.model.d.ts","sourceRoot":"","sources":["../../../../projects/log-monitor/src/lib/models/log-message.model.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,UAAU;IACzB,IAAI,CAAC,EAAE,KAAK,GAAG,MAAM,GAAG,MAAM,GAAG,KAAK,GAAG,SAAS,CAAC;IACnD,SAAS,CAAC,EAAE,MAAM,CAAC;IACnB,OAAO,EAAE,MAAM,CAAC;CACjB"}

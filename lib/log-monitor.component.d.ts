@@ -1,6 +1,7 @@
 import { AfterViewInit, ChangeDetectorRef, ElementRef, NgZone, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
 import { LogMessage } from './models/log-message.model';
 import { Observable } from 'rxjs';
+import * as i0 from "@angular/core";
 export declare class LogMonitorComponent implements OnInit, OnDestroy, OnChanges, AfterViewInit {
     private zone;
     private cd;
@@ -21,4 +22,7 @@ export declare class LogMonitorComponent implements OnInit, OnDestroy, OnChanges
     ngOnChanges(changes: SimpleChanges): void;
     ngAfterViewInit(): void;
     private scrollToBottom;
+    static ɵfac: i0.ɵɵFactoryDeclaration<LogMonitorComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<LogMonitorComponent, "log-monitor", never, { "delay": "delay"; "title": "title"; "logStream": "logStream"; "history": "history"; "theme": "theme"; "icons": "icons"; "customClass": "customClass"; "animated": "animated"; }, {}, never, never, false>;
 }
+//# sourceMappingURL=log-monitor.component.d.ts.map

@@ -23,6 +23,6 @@ export declare class LogMonitorComponent implements OnInit, OnDestroy, OnChanges
     ngAfterViewInit(): void;
     private scrollToBottom;
     static ɵfac: i0.ɵɵFactoryDeclaration<LogMonitorComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<LogMonitorComponent, "log-monitor", never, { "delay": "delay"; "title": "title"; "logStream": "logStream"; "history": "history"; "theme": "theme"; "icons": "icons"; "customClass": "customClass"; "animated": "animated"; }, {}, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<LogMonitorComponent, "log-monitor", never, { "delay": { "alias": "delay"; "required": false; }; "title": { "alias": "title"; "required": false; }; "logStream": { "alias": "logStream"; "required": false; }; "history": { "alias": "history"; "required": false; }; "theme": { "alias": "theme"; "required": false; }; "icons": { "alias": "icons"; "required": false; }; "customClass": { "alias": "customClass"; "required": false; }; "animated": { "alias": "animated"; "required": false; }; }, {}, never, never, false, never>;
 }
 //# sourceMappingURL=log-monitor.component.d.ts.map

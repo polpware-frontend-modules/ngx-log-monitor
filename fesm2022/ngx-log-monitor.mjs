@@ -121,7 +121,7 @@ class LogMonitorComponent {
     scrollToBottom() {
         this.container.nativeElement.scrollTop = this.container.nativeElement.scrollHeight;
     }
-    static { this.ɵfac = function LogMonitorComponent_Factory(t) { return new (t || LogMonitorComponent)(i0.ɵɵdirectiveInject(i0.NgZone), i0.ɵɵdirectiveInject(i0.ChangeDetectorRef)); }; }
+    static { this.ɵfac = function LogMonitorComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || LogMonitorComponent)(i0.ɵɵdirectiveInject(i0.NgZone), i0.ɵɵdirectiveInject(i0.ChangeDetectorRef)); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: LogMonitorComponent, selectors: [["log-monitor"]], viewQuery: function LogMonitorComponent_Query(rf, ctx) { if (rf & 1) {
             i0.ɵɵviewQuery(_c0, 5);
         } if (rf & 2) {
@@ -166,7 +166,7 @@ class LogMonitorComponent {
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(LogMonitorComponent, { className: "LogMonitorComponent", filePath: "lib\\log-monitor.component.ts", lineNumber: 25 }); })();
 
 class LogMonitorModule {
-    static { this.ɵfac = function LogMonitorModule_Factory(t) { return new (t || LogMonitorModule)(); }; }
+    static { this.ɵfac = function LogMonitorModule_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || LogMonitorModule)(); }; }
     static { this.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: LogMonitorModule }); }
     static { this.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModule] }); }
 }

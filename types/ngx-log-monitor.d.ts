@@ -41,4 +41,4 @@ declare class LogMonitorModule {
 
 export { LogMonitorComponent, LogMonitorModule };
 export type { LogMessage };
-//# sourceMappingURL=index.d.ts.map
+//# sourceMappingURL=ngx-log-monitor.d.ts.map

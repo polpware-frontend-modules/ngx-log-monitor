@@ -12,71 +12,53 @@ const normalizeLogMessage = (msg) => ({
 
 const _c0 = ["container"];
 const _c1 = a0 => ({ "animated": a0 });
-function LogMonitorComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    i0.ɵɵelementStart(0, "div", 4);
+function LogMonitorComponent_Conditional_0_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵelementStart(0, "div", 1);
     i0.ɵɵtext(1);
     i0.ɵɵelementEnd();
 } if (rf & 2) {
     const ctx_r0 = i0.ɵɵnextContext();
     i0.ɵɵproperty("ngClass", ctx_r0.theme + "-theme");
     i0.ɵɵadvance();
-    i0.ɵɵtextInterpolate1("\u232A ", ctx_r0.title, "");
+    i0.ɵɵtextInterpolate1("\u232A ", ctx_r0.title);
 } }
-function LogMonitorComponent_span_3_span_1_ng_container_1_Template(rf, ctx) { if (rf & 1) {
-    i0.ɵɵelementContainerStart(0);
-    i0.ɵɵtext(1, "\u2718");
-    i0.ɵɵelementContainerEnd();
+function LogMonitorComponent_For_4_Conditional_1_Case_1_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵtext(0, " \u2718 ");
 } }
-function LogMonitorComponent_span_3_span_1_ng_container_2_Template(rf, ctx) { if (rf & 1) {
-    i0.ɵɵelementContainerStart(0);
-    i0.ɵɵtext(1, "\u2714");
-    i0.ɵɵelementContainerEnd();
+function LogMonitorComponent_For_4_Conditional_1_Case_2_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵtext(0, " \u2714 ");
 } }
-function LogMonitorComponent_span_3_span_1_ng_container_3_Template(rf, ctx) { if (rf & 1) {
-    i0.ɵɵelementContainerStart(0);
-    i0.ɵɵtext(1, "\u2771");
-    i0.ɵɵelementContainerEnd();
+function LogMonitorComponent_For_4_Conditional_1_Case_3_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵtext(0, " \u2771 ");
 } }
-function LogMonitorComponent_span_3_span_1_ng_container_4_Template(rf, ctx) { if (rf & 1) {
-    i0.ɵɵelementContainerStart(0);
-    i0.ɵɵtext(1, "\u203C");
-    i0.ɵɵelementContainerEnd();
+function LogMonitorComponent_For_4_Conditional_1_Case_4_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵtext(0, " \u203C ");
 } }
-function LogMonitorComponent_span_3_span_1_ng_container_5_Template(rf, ctx) { if (rf & 1) {
-    i0.ɵɵelementContainerStart(0);
-    i0.ɵɵtext(1, "\u2139");
-    i0.ɵɵelementContainerEnd();
+function LogMonitorComponent_For_4_Conditional_1_Case_5_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵtext(0, " \u2139 ");
 } }
-function LogMonitorComponent_span_3_span_1_Template(rf, ctx) { if (rf & 1) {
-    i0.ɵɵelementStart(0, "span", 7);
-    i0.ɵɵtemplate(1, LogMonitorComponent_span_3_span_1_ng_container_1_Template, 2, 0, "ng-container", 8)(2, LogMonitorComponent_span_3_span_1_ng_container_2_Template, 2, 0, "ng-container", 8)(3, LogMonitorComponent_span_3_span_1_ng_container_3_Template, 2, 0, "ng-container", 8)(4, LogMonitorComponent_span_3_span_1_ng_container_4_Template, 2, 0, "ng-container", 8)(5, LogMonitorComponent_span_3_span_1_ng_container_5_Template, 2, 0, "ng-container", 8);
+function LogMonitorComponent_For_4_Conditional_1_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵelementStart(0, "span");
+    i0.ɵɵconditionalCreate(1, LogMonitorComponent_For_4_Conditional_1_Case_1_Template, 1, 0)(2, LogMonitorComponent_For_4_Conditional_1_Case_2_Template, 1, 0)(3, LogMonitorComponent_For_4_Conditional_1_Case_3_Template, 1, 0)(4, LogMonitorComponent_For_4_Conditional_1_Case_4_Template, 1, 0)(5, LogMonitorComponent_For_4_Conditional_1_Case_5_Template, 1, 0);
     i0.ɵɵelementEnd();
 } if (rf & 2) {
+    let tmp_12_0;
     const log_r2 = i0.ɵɵnextContext().$implicit;
-    i0.ɵɵproperty("ngSwitch", log_r2.type);
     i0.ɵɵadvance();
-    i0.ɵɵproperty("ngSwitchCase", "ERR");
-    i0.ɵɵadvance();
-    i0.ɵɵproperty("ngSwitchCase", "SUCCESS");
-    i0.ɵɵadvance();
-    i0.ɵɵproperty("ngSwitchCase", "LOG");
-    i0.ɵɵadvance();
-    i0.ɵɵproperty("ngSwitchCase", "WARN");
-    i0.ɵɵadvance();
-    i0.ɵɵproperty("ngSwitchCase", "INFO");
+    i0.ɵɵconditional((tmp_12_0 = log_r2.type) === "ERR" ? 1 : tmp_12_0 === "SUCCESS" ? 2 : tmp_12_0 === "LOG" ? 3 : tmp_12_0 === "WARN" ? 4 : tmp_12_0 === "INFO" ? 5 : -1);
 } }
-function LogMonitorComponent_span_3_Template(rf, ctx) { if (rf & 1) {
-    i0.ɵɵelementStart(0, "span", 5);
-    i0.ɵɵtemplate(1, LogMonitorComponent_span_3_span_1_Template, 6, 6, "span", 6);
+function LogMonitorComponent_For_4_Template(rf, ctx) { if (rf & 1) {
+    i0.ɵɵelementStart(0, "span", 4);
+    i0.ɵɵconditionalCreate(1, LogMonitorComponent_For_4_Conditional_1_Template, 6, 1, "span");
     i0.ɵɵtext(2);
     i0.ɵɵelementEnd();
 } if (rf & 2) {
     const log_r2 = ctx.$implicit;
     const ctx_r0 = i0.ɵɵnextContext();
-    i0.ɵɵclassMapInterpolate1("msg-item ", "msg-" + log_r2.type.toLowerCase(), "");
+    i0.ɵɵclassMap(i0.ɵɵinterpolate1("msg-item ", "msg-" + log_r2.type.toLowerCase()));
     i0.ɵɵproperty("ngClass", i0.ɵɵpureFunction1(7, _c1, ctx_r0.animated));
     i0.ɵɵadvance();
-    i0.ɵɵproperty("ngIf", ctx_r0.icons);
+    i0.ɵɵconditional(ctx_r0.icons ? 1 : -1);
     i0.ɵɵadvance();
     i0.ɵɵtextInterpolate2(" [", log_r2.timestamp, "]: ", log_r2.message, " ");
 } }
@@ -127,22 +109,22 @@ class LogMonitorComponent {
         } if (rf & 2) {
             let _t;
             i0.ɵɵqueryRefresh(_t = i0.ɵɵloadQuery()) && (ctx.container = _t.first);
-        } }, inputs: { delay: "delay", title: "title", logStream: "logStream", history: "history", theme: "theme", icons: "icons", customClass: "customClass", animated: "animated" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], decls: 4, vars: 3, consts: [["container", ""], ["class", "title-bar", 3, "ngClass", 4, "ngIf"], [1, "container", 3, "ngClass"], [3, "class", "ngClass", 4, "ngFor", "ngForOf"], [1, "title-bar", 3, "ngClass"], [3, "ngClass"], [3, "ngSwitch", 4, "ngIf"], [3, "ngSwitch"], [4, "ngSwitchCase"]], template: function LogMonitorComponent_Template(rf, ctx) { if (rf & 1) {
-            i0.ɵɵtemplate(0, LogMonitorComponent_div_0_Template, 2, 2, "div", 1);
+        } }, inputs: { delay: "delay", title: "title", logStream: "logStream", history: "history", theme: "theme", icons: "icons", customClass: "customClass", animated: "animated" }, standalone: false, features: [i0.ɵɵNgOnChangesFeature], decls: 5, vars: 2, consts: [["container", ""], [1, "title-bar", 3, "ngClass"], [1, "container", 3, "ngClass"], [3, "class", "ngClass"], [3, "ngClass"]], template: function LogMonitorComponent_Template(rf, ctx) { if (rf & 1) {
+            i0.ɵɵconditionalCreate(0, LogMonitorComponent_Conditional_0_Template, 2, 2, "div", 1);
             i0.ɵɵelementStart(1, "div", 2, 0);
-            i0.ɵɵtemplate(3, LogMonitorComponent_span_3_Template, 3, 9, "span", 3);
+            i0.ɵɵrepeaterCreate(3, LogMonitorComponent_For_4_Template, 3, 9, "span", 3, i0.ɵɵrepeaterTrackByIdentity);
             i0.ɵɵelementEnd();
         } if (rf & 2) {
-            i0.ɵɵproperty("ngIf", ctx.title);
+            i0.ɵɵconditional(ctx.title ? 0 : -1);
             i0.ɵɵadvance();
             i0.ɵɵproperty("ngClass", ctx.theme + "-theme");
             i0.ɵɵadvance(2);
-            i0.ɵɵproperty("ngForOf", ctx._history);
-        } }, dependencies: [i1.NgClass, i1.NgForOf, i1.NgIf, i1.NgSwitch, i1.NgSwitchCase], styles: [".container[_ngcontent-%COMP%]{position:relative;width:100%;height:100%;padding-top:5px;padding-bottom:5px;overflow-y:auto;font-family:Lucida Console,Monaco,monospace,sans-serif}.animated[_ngcontent-%COMP%]{animation:_ngcontent-%COMP%_fadein .26s}@keyframes _ngcontent-%COMP%_fadein{0%{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}.title-bar[_ngcontent-%COMP%]{padding:5px;font-weight:600}.dark-theme.title-bar[_ngcontent-%COMP%]{border-bottom:solid 1px #3c3c3c;background:#1f1f1f}.light-theme.title-bar[_ngcontent-%COMP%]{border-bottom:solid 1px #a8acad;background:#dbdfe0}.msg-item[_ngcontent-%COMP%]{display:block;margin-left:6px;font-size:.85em}.msg-list[_ngcontent-%COMP%]{margin:0;height:100%}.light-theme[_ngcontent-%COMP%]{color:#212121;background:#ecf0f1}.light-theme[_ngcontent-%COMP%]   .msg-info[_ngcontent-%COMP%]{color:#2980b9}.light-theme[_ngcontent-%COMP%]   .msg-err[_ngcontent-%COMP%]{color:#c0392b}.light-theme[_ngcontent-%COMP%]   .msg-success[_ngcontent-%COMP%]{color:#27ae60}.light-theme[_ngcontent-%COMP%]   .msg-warn[_ngcontent-%COMP%]{color:#f39c12}.dark-theme[_ngcontent-%COMP%]{color:#ecf0f1;background:#212121}.dark-theme[_ngcontent-%COMP%]   .msg-info[_ngcontent-%COMP%]{color:#3498db}.dark-theme[_ngcontent-%COMP%]   .msg-err[_ngcontent-%COMP%]{color:#e74c3c}.dark-theme[_ngcontent-%COMP%]   .msg-success[_ngcontent-%COMP%]{color:#2ecc71}.dark-theme[_ngcontent-%COMP%]   .msg-warn[_ngcontent-%COMP%]{color:#f1c40f}"], changeDetection: 0 }); }
+            i0.ɵɵrepeater(ctx._history);
+        } }, dependencies: [i1.NgClass], styles: [".container[_ngcontent-%COMP%]{position:relative;width:100%;height:100%;padding-top:5px;padding-bottom:5px;overflow-y:auto;font-family:Lucida Console,Monaco,monospace,sans-serif}.animated[_ngcontent-%COMP%]{animation:_ngcontent-%COMP%_fadein .26s}@keyframes _ngcontent-%COMP%_fadein{0%{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}.title-bar[_ngcontent-%COMP%]{padding:5px;font-weight:600}.dark-theme.title-bar[_ngcontent-%COMP%]{border-bottom:solid 1px #3c3c3c;background:#1f1f1f}.light-theme.title-bar[_ngcontent-%COMP%]{border-bottom:solid 1px #a8acad;background:#dbdfe0}.msg-item[_ngcontent-%COMP%]{display:block;margin-left:6px;font-size:.85em}.msg-list[_ngcontent-%COMP%]{margin:0;height:100%}.light-theme[_ngcontent-%COMP%]{color:#212121;background:#ecf0f1}.light-theme[_ngcontent-%COMP%]   .msg-info[_ngcontent-%COMP%]{color:#2980b9}.light-theme[_ngcontent-%COMP%]   .msg-err[_ngcontent-%COMP%]{color:#c0392b}.light-theme[_ngcontent-%COMP%]   .msg-success[_ngcontent-%COMP%]{color:#27ae60}.light-theme[_ngcontent-%COMP%]   .msg-warn[_ngcontent-%COMP%]{color:#f39c12}.dark-theme[_ngcontent-%COMP%]{color:#ecf0f1;background:#212121}.dark-theme[_ngcontent-%COMP%]   .msg-info[_ngcontent-%COMP%]{color:#3498db}.dark-theme[_ngcontent-%COMP%]   .msg-err[_ngcontent-%COMP%]{color:#e74c3c}.dark-theme[_ngcontent-%COMP%]   .msg-success[_ngcontent-%COMP%]{color:#2ecc71}.dark-theme[_ngcontent-%COMP%]   .msg-warn[_ngcontent-%COMP%]{color:#f1c40f}"], changeDetection: 0 }); }
 }
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(LogMonitorComponent, [{
         type: Component,
-        args: [{ selector: 'log-monitor', changeDetection: ChangeDetectionStrategy.OnPush, standalone: false, template: "\n<div *ngIf=\"title\" class=\"title-bar\" [ngClass]=\"theme+'-theme'\">&#9002; {{title}}</div>\n<div\n  #container\n  class=\"container\"\n  [ngClass]=\"theme+'-theme'\"\n>\n  <span\n    class=\"msg-item {{'msg-'+(log.type.toLowerCase())}}\"\n    *ngFor=\"let log of _history\"\n    [ngClass]=\"{'animated': animated}\"\n  >\n    <span *ngIf=\"icons\" [ngSwitch]=\"log.type\">\n      <ng-container *ngSwitchCase=\"'ERR'\">&#10008;</ng-container>\n      <ng-container *ngSwitchCase=\"'SUCCESS'\">&#10004;</ng-container>\n      <ng-container *ngSwitchCase=\"'LOG'\">&#10097;</ng-container>\n      <ng-container *ngSwitchCase=\"'WARN'\">&#8252;</ng-container>\n      <ng-container *ngSwitchCase=\"'INFO'\">&#8505;</ng-container>\n    </span>\n\n    [{{log.timestamp}}]: {{log.message}}\n  </span>\n\n</div>\n", styles: [".container{position:relative;width:100%;height:100%;padding-top:5px;padding-bottom:5px;overflow-y:auto;font-family:Lucida Console,Monaco,monospace,sans-serif}.animated{animation:fadein .26s}@keyframes fadein{0%{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}.title-bar{padding:5px;font-weight:600}.dark-theme.title-bar{border-bottom:solid 1px #3c3c3c;background:#1f1f1f}.light-theme.title-bar{border-bottom:solid 1px #a8acad;background:#dbdfe0}.msg-item{display:block;margin-left:6px;font-size:.85em}.msg-list{margin:0;height:100%}.light-theme{color:#212121;background:#ecf0f1}.light-theme .msg-info{color:#2980b9}.light-theme .msg-err{color:#c0392b}.light-theme .msg-success{color:#27ae60}.light-theme .msg-warn{color:#f39c12}.dark-theme{color:#ecf0f1;background:#212121}.dark-theme .msg-info{color:#3498db}.dark-theme .msg-err{color:#e74c3c}.dark-theme .msg-success{color:#2ecc71}.dark-theme .msg-warn{color:#f1c40f}\n"] }]
+        args: [{ selector: 'log-monitor', changeDetection: ChangeDetectionStrategy.OnPush, standalone: false, template: "\n@if (title) {\n  <div class=\"title-bar\" [ngClass]=\"theme+'-theme'\">&#9002; {{title}}</div>\n}\n<div\n  #container\n  class=\"container\"\n  [ngClass]=\"theme+'-theme'\"\n  >\n  @for (log of _history; track log) {\n    <span\n      class=\"msg-item {{'msg-'+(log.type.toLowerCase())}}\"\n      [ngClass]=\"{'animated': animated}\"\n      >\n      @if (icons) {\n        <span>\n          @switch (log.type) {\n            @case ('ERR') {\n              &#10008;\n            }\n            @case ('SUCCESS') {\n              &#10004;\n            }\n            @case ('LOG') {\n              &#10097;\n            }\n            @case ('WARN') {\n              &#8252;\n            }\n            @case ('INFO') {\n              &#8505;\n            }\n          }\n        </span>\n      }\n      [{{log.timestamp}}]: {{log.message}}\n    </span>\n  }\n\n</div>\n", styles: [".container{position:relative;width:100%;height:100%;padding-top:5px;padding-bottom:5px;overflow-y:auto;font-family:Lucida Console,Monaco,monospace,sans-serif}.animated{animation:fadein .26s}@keyframes fadein{0%{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}.title-bar{padding:5px;font-weight:600}.dark-theme.title-bar{border-bottom:solid 1px #3c3c3c;background:#1f1f1f}.light-theme.title-bar{border-bottom:solid 1px #a8acad;background:#dbdfe0}.msg-item{display:block;margin-left:6px;font-size:.85em}.msg-list{margin:0;height:100%}.light-theme{color:#212121;background:#ecf0f1}.light-theme .msg-info{color:#2980b9}.light-theme .msg-err{color:#c0392b}.light-theme .msg-success{color:#27ae60}.light-theme .msg-warn{color:#f39c12}.dark-theme{color:#ecf0f1;background:#212121}.dark-theme .msg-info{color:#3498db}.dark-theme .msg-err{color:#e74c3c}.dark-theme .msg-success{color:#2ecc71}.dark-theme .msg-warn{color:#f1c40f}\n"] }]
     }], () => [{ type: i0.NgZone }, { type: i0.ChangeDetectorRef }], { delay: [{
             type: Input
         }], title: [{
